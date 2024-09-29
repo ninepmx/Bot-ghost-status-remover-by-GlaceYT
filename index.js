@@ -37,7 +37,14 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["👀 Schaut Rivaro Roleplay zu"];
+const statusMessages = [
+    "🎮 Spiele auf Rivaro | Roleplay!",
+    "📺 Schaut Rivaro | Roleplay zu!",
+    "🏙️ Erkunde die Straßen von Rivaro!",
+    "🌆 Rivaro wartet auf dich!",
+    "🏍️ Fahre durch die Straßen von Rivaro!",
+    "🌍 Rivaro - Die Welt des Roleplays!",
+];
 const statusTypes = [ 'dnd', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
